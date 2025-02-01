@@ -7,6 +7,8 @@
     
 - <a href="https://github.com/Mubeen-Ahmad/AI/blob/main/3_image_audio.ipynb"> Image and Audio Data Representation</a><br>
 
-- <a href="https://github.com/Mubeen-Ahmad/AI/blob/main/4_Graphs.ipynb"> Graph</a><br>
-
+- <a href="https://github.com/Mubeen-Ahmad/AI/blob/main/4_Graphs.ipynb"> Graph Data Representation</a><br>
+    
+- <a href="https://github.com/Mubeen-Ahmad/AI/blob/main/5_datetime_geospatial.ipynb"> Date-Time and Geospatial Data Representation</a><br>
+    
 </details>

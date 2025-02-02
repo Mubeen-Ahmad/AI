@@ -44,6 +44,13 @@
    - **Approach**: Deep Learning (especially computer vision, NLP)
 - **Model Ensemble**: Multiple models ka combination, jaise Bagging aur Boosting.  
    - **Approach**: ML, Deep Learning (Ensemble models like Random Forest, XGBoost)
+ - **Hyperparameters vs. Parameters:** 
+     - Hyperparameters: 
+         - User-defined settings (jaise learning rate, epochs).
+      - Parameters: 
+          - Model ke khud seekhay hue weights.
+
+- **Data Leakage**: Jab test data ka kuch hissa training mein chala jaye (ghalti se), jis se results fake lagte hain.**
 
 ### **6. Reinforcement Learning (RL)**
 - **Reinforcement Learning**: Agent ko environment ke sath interact karna sikhana, taake wo rewards maximize kar sake.  

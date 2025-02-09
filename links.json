@@ -1,0 +1,52 @@
+{
+  "courses": {
+    "functional_programming": {
+      "topic_name": "Functional Programming",
+      "description": "Master the art of writing clean, efficient code using functional paradigms.",
+      "url": "functional.html",
+      "subtopics": {
+         "introduction": {
+             "topic_name": "Introduction",
+             "description": "An overview of functional programming principles.",
+             "url": "https://your-jupyter-notebook-link.com/intro"
+         },
+         "pure_functions": {
+             "topic_name": "Pure Functions",
+             "description": "Understanding pure functions and their benefits.",
+             "url": "https://your-jupyter-notebook-link.com/pure"
+         },
+         "higher_order_functions": {
+             "topic_name": "Higher Order Functions",
+             "description": "Learn how functions can take or return other functions.",
+             "url": "https://your-jupyter-notebook-link.com/higher-order"
+         },
+         "recursion": {
+             "topic_name": "Recursion",
+             "description": "Explore recursive techniques for problem solving.",
+             "url": "https://your-jupyter-notebook-link.com/recursion"
+         },
+         "immutability": {
+             "topic_name": "Immutability",
+             "description": "Discover the benefits of immutable data structures.",
+             "url": "https://your-jupyter-notebook-link.com/immutability"
+         }
+      }
+    },
+    "machine_learning": {
+      "topic_name": "Machine Learning",
+      "description": "Explore data-driven algorithms and predictive models.",
+      "url": "machine.html"
+    },
+    "deep_learning": {
+      "topic_name": "Deep Learning",
+      "description": "Dive into neural networks and cutting-edge AI techniques.",
+      "url": "deep.html"
+    },
+    "python_for_data_science": {
+      "topic_name": "Python for Data Science",
+      "description": "Enhance your Python skills for data analysis and visualization.",
+      "url": "python.html"
+    }
+  }
+}
+

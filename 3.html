@@ -11504,7 +11504,85 @@ Visualize Weighted Mean And Differences in Normal Means | Weighted Mean
 </div>
 </div>
 </div>
-</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5645234b-c0a1-4093-a870-f65e81acacf7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div style="color: black; font-size: 20px; font-style: oblique; text-shadow: 0 0 3px white, 0 0 1px black; padding: 20px;">
+<p style="text-align:center;">Summery</p>
+<table>
+<thead>
+<tr>
+<th>🔢 Name</th>
+<th>🧮 Formula</th>
+<th>🎯 Core Concept</th>
+<th>🛠️ Core Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mean</strong> (Arithmetic)</td>
+<td><code>Sum(data) / n</code></td>
+<td>Sab values ka equal average</td>
+<td>General stats, ML feature mean normalization</td>
+</tr>
+<tr>
+<td><strong>Median</strong></td>
+<td><code>Odd → data[n//2]</code> <br/> <code>Even → (data[n//2 - 1] + data[n//2]) / 2</code></td>
+<td>Middle value after sorting</td>
+<td>Robust to outliers; income, grades, salaries</td>
+</tr>
+<tr>
+<td><strong>Mode</strong></td>
+<td><code>Value with highest frequency</code></td>
+<td>Sab se zyada baar aanay wali value</td>
+<td>Categorical data analysis (surveys, NLP, votes)</td>
+</tr>
+<tr>
+<td><strong>Geometric Mean</strong></td>
+<td><code>(x1 * x2 * ... * xn) ** (1/n)</code></td>
+<td>Multiplicative mean; lower effect of large values</td>
+<td>Growth rate, returns (finance, biology, portfolio growth)</td>
+</tr>
+<tr>
+<td><strong>Harmonic Mean</strong></td>
+<td><code>n / (1/x1 + 1/x2 + ... + 1/xn)</code></td>
+<td>Emphasizes small values</td>
+<td>Average speed, rates (like km/hr, price per unit)</td>
+</tr>
+<tr>
+<td><strong>Trimmed Mean</strong></td>
+<td><code>sum(sorted[t : n - t]) / (n - 2t)</code></td>
+<td>Remove extreme values from both ends</td>
+<td>Outlier-resistant average (sensors, clean stats)</td>
+</tr>
+<tr>
+<td><strong>Weighted Mean</strong></td>
+<td><code>(v1*w1 + v2*w2 + ... + vn*wn) / sum(weights)</code></td>
+<td>Zyada weight walay values ka zyada asar</td>
+<td>GPA calculation, weighted scoring systems</td>
+</tr>
+<tr>
+<td><strong>Moving Average (SMA)</strong></td>
+<td><code>Sum of last k values / k</code></td>
+<td>Smooth data over time</td>
+<td>Time series smoothing, noise reduction, signal processing</td>
+</tr>
+<tr>
+<td><strong>Exponential MA (EMA)</strong></td>
+<td><code>α * current + (1 - α) * previous_ema</code> <br/> (α = 2/(span + 1))</td>
+<td>Recent values ko zyada importance</td>
+<td>Real-time trends, stock trading signals, sensors</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></main>
 </body>
 <script type="application/vnd.jupyter.widget-state+json">
 {"state": {}, "version_major": 2, "version_minor": 0}
